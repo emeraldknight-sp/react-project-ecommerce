@@ -8,7 +8,7 @@ const ShoppingCart = () => {
   return (
     <>
       <h1>Hello, sou o carrinho de compras! :D</h1>
-      <button onClick={() => history.push("/homepage")}>Voltar</button>
+      <button onClick={() => history.push("/")}>Voltar</button>
     </>
   )
 }

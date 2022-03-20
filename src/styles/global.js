@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -51,4 +52,48 @@ table {
 	border-spacing: 0;
 }
 
+body, input, select, button, textarea {
+  font-family: var(--poppins);
+}
+
+:root {
+  --poppins: 'Outfit', sans-serif;
+  --heading-1: 30px;
+  --heading-2: calc(var(--heading-1) - 30%);
+  --heading-3: calc(var(--heading-2) - 50%);
+  --headline: 0.75rem;
+  --body: 1rem;
+
+  /* BTN CONFIGS */
+  --background-btn: green;
+  --color-btn: white;
+
+  /* GRAYSCALE */
+  --gray-4: #121214;
+  --gray-3: #212529;
+  --gray-2: #343B41;
+  --gray-1: #868E96;
+  --gray-0: #F8F9FA;
+
+  /* INPUTS CONFIGS */
+  --bordercolor: green;
+}`
+
+export const StyledContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
 `

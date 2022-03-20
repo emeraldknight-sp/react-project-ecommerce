@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom";
-import Homepage from "../pages/homePage";
+import Homepage from "../pages/Home";
 import ShoppingCart from "../pages/shoppingCart";
 
 const Routes = () => {
@@ -9,7 +9,7 @@ const Routes = () => {
   return(
     <Switch>
 
-      <Route exact path="/homepage">
+      <Route exact path="/">
         <Homepage />
       </Route>
 
