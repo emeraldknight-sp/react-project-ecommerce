@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useContext } from "react";
 import { BooksOnVitrineContext } from "../../providers/BooksOnVitrine";
 import { ProductsOnCartContext } from "../../providers/BookOnCart/index";
