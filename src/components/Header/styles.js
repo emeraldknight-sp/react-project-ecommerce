@@ -5,7 +5,7 @@ export const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   background-color:  #F5F5F5;
   width: 100vw;
@@ -33,8 +33,9 @@ export const StyledSearch = styled.div`
   input {
     width: 80%;
     padding: 10px;
-    border: none;
-    border-radius: 5px;
+    border: 1px solid green;
+    border-radius: 5px 0 0 5px;
+    outline: none;
   }
 
   button {
@@ -44,5 +45,11 @@ export const StyledSearch = styled.div`
     border: none;
     border-radius: 0 5px 5px 0;
     padding: 10px 5px;
+    transition: filter 0.5s;
+    cursor: pointer;
+
+    :active {
+      filter: brightness(0.6);
+    }
   }
 `

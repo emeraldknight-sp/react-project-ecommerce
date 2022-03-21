@@ -15,7 +15,7 @@ const Header = () => {
 
         <StyledSearch>
           <input type="text" placeholder="Digite sua busca"/>
-          <button><BsSearch size={16} /></button>
+          <button onClick={() => console.log("Oi")}><BsSearch size={16} /></button>
         </StyledSearch>
 
       </StyledContainer>

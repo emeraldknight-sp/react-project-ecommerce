@@ -1,11 +1,9 @@
 import { Switch, Route } from "react-router-dom";
 import Homepage from "../pages/Home";
-import ShoppingCart from "../pages/shoppingCart";
+import ShoppingCart from "../pages/Cart";
 
 const Routes = () => {
 
-  console.log("Estou funcionando! ")
-  
   return(
     <Switch>
 

@@ -1,23 +1,26 @@
-// Hooks
 import { useHistory } from "react-router-dom";
-
-// Components
+import { StyledNav } from "./styles";
+import { BsCart4 } from "react-icons/bs";
 import Header from "../../components/Header";
-
-// Styles
-import { StyledContainer } from './styles';
+import Main from "../../components/Main";
+import ProductList from "../../components/ProductList";
 
 const Homepage = () => {
 
   const history = useHistory();
+  // const name = window.prompt("Digite seu nome")
+  // console.log(name)
 
   return (
     <>
       <Header />
-      <StyledContainer>
-        <h1>Hello, sou homepage! :D</h1>
-        <button onClick={() => history.push("/cart")}>Carrinho</button>
-      </StyledContainer>
+      <Main>
+        <StyledNav>
+          <h1>Hello, sou sua homepage! :D</h1>
+          <button onClick={() => history.push("/cart")}> <BsCart4 size={20}/></button>
+        </StyledNav>
+        <ProductList type="vitrine" />
+      </Main>
     </>
   )
 }
