@@ -7,10 +7,18 @@ export const StyledHeader = styled.header`
   align-items: center;
   position: absolute;
   z-index: 1;
-  background-color:  #F5F5F5;
-  width: 100vw;
+  background-color: var(--background);
+  width: 100%;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
   height: 20vh;
+
+  @media (min-width: 768px) {
+    height: 15vh;
+  }
+
+  @media (min-width: 1024px) {
+    height: 10vh;
+  }
 `
 export const StyledLogo = styled.div`
   display: flex;
@@ -33,7 +41,7 @@ export const StyledSearch = styled.div`
   input {
     width: 80%;
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid var(--bordercolor);
     border-radius: 5px 0 0 5px;
     outline: none;
   }
@@ -45,11 +53,17 @@ export const StyledSearch = styled.div`
     border: none;
     border-radius: 0 5px 5px 0;
     padding: 10px 5px;
-    transition: filter 0.5s;
+    transition: filter 0.5s, background-color 0.5s;
     cursor: pointer;
 
     :active {
       filter: brightness(0.6);
+    }
+
+    @media (min-width: 1024px) {
+      :hover {
+        background-color: var(--gray-3);
+      }
     }
   }
 `
