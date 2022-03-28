@@ -65,8 +65,10 @@ body, input, select, button, textarea {
   --body: 1rem;
 
   /* BTN CONFIGS */
-  --background-btn: green;
+  --background-btn: #2ECC71;
   --color-btn: white;
+  --background-btn--negative: #E74C3C;
+  --background: #F5F5F5;
 
   /* GRAYSCALE */
   --gray-4: #121214;
@@ -76,24 +78,24 @@ body, input, select, button, textarea {
   --gray-0: #F8F9FA;
 
   /* INPUTS CONFIGS */
-  --bordercolor: green;
+  --bordercolor: #2ECC71;
 }`
 
 export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 10px;
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
-  padding: 0;
 
   @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
   }
 `
