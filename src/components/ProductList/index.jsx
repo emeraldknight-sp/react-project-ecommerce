@@ -8,19 +8,21 @@ import { StyledItem, StyledList } from './style';
 const ProductList = ({ type }) => {
   const books = useContext(BooksOnVitrineContext);
   const cart = useContext(ProductsOnCartContext);
-
+  
+  
   return (
     <StyledList>
       {type === "vitrine" &&
         books.books.map((book, index) => (
           <StyledItem key={index}>
-            {/* IMAGE */}
-            <img src={book.image} alt={book.name} />
-            {/* NAME */}
-            {book.name} 
-            {/* PRICE */}
-            {book.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
-            {/* BUTTON */}
+            <figure>
+              <img src={book.image} alt={book.name} />
+            </figure>
+            <h3>{book.name}</h3>
+            <div>
+              <span>Autor: {book.author}</span>
+              <p>{book.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>
+            </div>
             <Button type="vitrine" item={book}/>
           </StyledItem>
         ))}
