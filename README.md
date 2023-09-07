@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+<h1 align="center"> Project: Avalon's Warehouse </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Avalon Warehouse é um projeto web voltado ao e-commerce que busca oferecer uma experiência de compra literária única e inspiradora. Construído com as mais recentes tecnologias, incluindo React, TypeScript e Styled-components, o site combina a magia da literatura com a conveniência do comércio eletrônico.
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img alt="logo" src=".github/project.webp" width="100%">
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias
 
-### `yarn test`
+<p id="technologies">Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5, CSS3, JS ES6+
+- [Node e Yarn](https://nodejs.org/)
+- [React.JS](https://reactjs.org/)
+- [Create react-app](https://create-react-app.dev/)
+- [Styled components](https://styled-components.com/docs)
+- [React-hot-toast](https://react-hot-toast.com/)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [ESLint](https://eslint.org/docs/latest/)
+- [Prettier](https://prettier.io/docs/en/)
+- [Husky](https://typicode.github.io/husky/)
+- [Lint-staged](https://www.npmjs.com/package/lint-staged?activeTab=readme)
 
-### `yarn build`
+## 💻 Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p id="project">
+<b>Visão Geral</b>:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bem-vindo ao Avalon Warehouse, o destino definitivo para amantes da leitura em busca de uma experiência de compra de livros excepcional. Nosso projeto é impulsionado por tecnologia de ponta, combinando React, styled-components, react-hot-toast e TypeScript para criar um ambiente de comércio eletrônico excepcionalmente rápido, interativo e intuitivo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<b>Principais Recursos e Tecnologias</b>:
 
-### `yarn eject`
+<b>React</b>: Utilizamos a poderosa biblioteca React para criar uma interface de usuário dinâmica e responsiva. Isso significa que nosso site se adapta perfeitamente a dispositivos de todos os tamanhos, proporcionando uma experiência de compra fluida.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<b>styled-components</b>: Com styled-components, nossa estilização é elegante, modular e altamente eficiente. Cada elemento do nosso site é cuidadosamente projetado e estilizado para criar uma aparência visualmente atraente e coesa.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<b>react-hot-toast</b>: Implementamos o react-hot-toast para fornecer feedback em tempo real aos nossos usuários. Seja para confirmações de compra, notificações de disponibilidade de produtos ou feedback sobre ações realizadas, o react-hot-toast mantém nossos clientes informados e engajados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<b>TypeScript</b>: Usamos TypeScript para criar um código robusto, com menos erros e maior manutenibilidade. Isso garante que nosso site seja seguro e eficiente em termos de desempenho.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<b>Nosso Objetivo</b>:
 
-## Learn More
+No Avalon Warehouse, nosso principal objetivo é fornecer um e-commerce de livros excepcional. Queremos que nossos clientes experimentem o seguinte:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<b>Rápido Carregamento</b>: Nosso site é otimizado para carregamento rápido, garantindo que os clientes acessem rapidamente suas páginas e produtos desejados.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<b>Interface Interativa</b>: Com React, oferecemos uma interface interativa que responde instantaneamente aos cliques e interações, criando uma experiência de compra envolvente.
 
-### Code Splitting
+<b>Intuitivo e Fácil de Usar</b>: A usabilidade é fundamental. Projetamos nosso site para ser intuitivo, facilitando a busca, seleção e compra de livros.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<b>Ampla Variedade de Livros</b>: Oferecemos uma seleção cuidadosamente curada de livros, incluindo clássicos atemporais, best-sellers contemporâneos e uma variedade de gêneros para atender a todos os gostos.
 
-### Analyzing the Bundle Size
+<b>Segurança e Confiabilidade</b>: Implementamos medidas de segurança rigorosas para garantir que os dados dos clientes estejam protegidos e que cada transação seja segura.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+O Avalon Warehouse é mais do que uma loja de livros; é um santuário literário onde a qualidade e a experiência do cliente são primordiais. Junte-se a nós na jornada de descoberta literária e aproveite a magia dos livros em um ambiente digital de última geração.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</p>
 
-### Advanced Configuration
+## 🏡 Comandos de execução no projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Instalação das dependências do projeto
 
-### Deployment
+```sh
+yarn
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Comando para executar a aplicação
 
-### `yarn build` fails to minify
+```sh
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔖 Layout
+
+Você pode [visualizar o layout do projeto](https://dribbble.com/shots/14574374-Book-Store-Mobile-Apps-Dark-Mode) clicando aqui. É necessário ter conta no [Dribbble](https://dribbble.com) para acessá-lo.
+
+<p id="layout">
+  <img src=".github/layout.webp" alt="layout" >
+</p>
+
+## 📝 Licença
+
+<p id="license">Esse projeto está sob a licença MIT.</p>
