@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import styled from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -79,23 +78,5 @@ body, input, select, button, textarea {
 
   /* INPUTS CONFIGS */
   --bordercolor: #2ECC71;
-}`
-
-export const StyledContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  justify-content: center;
-  align-items: center;
-  /* flex-wrap: wrap; */
-  gap: 10px;
-  width: 90vw;
-  margin: 0 auto;
-
-  @media (min-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-  }
-`
+}
+`;
