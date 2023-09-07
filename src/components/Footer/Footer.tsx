@@ -1,12 +1,12 @@
-import { StyledContainer } from "../../style/global";
-import { StyledContacts, StyledFooter } from "./Footer.style";
-
 import { FaTwitch, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Container } from "../Container";
+
+import { StyledContacts, StyledFooter } from "./Footer.style";
 
 export const Footer = () => {
   return (
     <StyledFooter>
-      <StyledContainer>
+      <Container>
         <h3>Designed by EmeraldKnight inc.</h3>
         <StyledContacts>
           <a
@@ -31,7 +31,7 @@ export const Footer = () => {
             <FaLinkedin /> Linkedin
           </a>
         </StyledContacts>
-      </StyledContainer>
+      </Container>
     </StyledFooter>
   );
 };

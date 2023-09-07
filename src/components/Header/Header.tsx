@@ -1,11 +1,11 @@
 import { BsSearch } from "react-icons/bs";
-import { StyledContainer } from "../../style/global.js";
-import { StyledHeader, StyledLogo, StyledSearch } from "./Header.style.js";
+import { Container } from "../Container";
+import { StyledHeader, StyledLogo, StyledSearch } from "./Header.style";
 
 export const Header = () => {
   return (
     <StyledHeader>
-      <StyledContainer>
+      <Container>
         <StyledLogo>
           <img src="" width={32} height={32} alt="logotipo" />
           <span>Emerald Books</span>
@@ -17,7 +17,7 @@ export const Header = () => {
             <BsSearch size={16} />
           </button>
         </StyledSearch>
-      </StyledContainer>
+      </Container>
     </StyledHeader>
   );
 };
