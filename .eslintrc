@@ -3,9 +3,9 @@
   "plugins": ["@typescript-eslint", "react", "prettier"],
   "extends": [
     "eslint:recommended",
-    "eslint-plugin-jsx-a11y",
     "eslint-plugin-react",
     "eslint-plugin-react-hooks",
+    "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "prettier"
