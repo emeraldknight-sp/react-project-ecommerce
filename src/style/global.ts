@@ -52,31 +52,47 @@ table {
 }
 
 body, input, select, button, textarea {
-  font-family: var(--poppins);
+  font-family: var(--tipographyMontserrat);
 }
 
 :root {
-  --poppins: 'Outfit', sans-serif;
-  --heading-1: 30px;
-  --heading-2: calc(var(--heading-1) - 30%);
-  --heading-3: calc(var(--heading-2) - 50%);
-  --headline: 0.75rem;
-  --body: 1rem;
+  --tipographyMontserrat: "Montserrat", sans-serif;
+  --tipographyOpenSans: "Open Sans", sans-serif;
+  
+  --text-5xl: 3rem;
+  --text-4xl: 2.25rem;
+  --text-3xl: 1.875rem;
+  --text-2xl: 1.5rem;
+  --text-xl: 1.25rem;
+  --text-lg: 1.125rem;
+  --text-md: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
 
-  /* BTN CONFIGS */
-  --background-btn: #2ECC71;
-  --color-btn: white;
-  --background-btn--negative: #E74C3C;
-  --background: #F5F5F5;
+  --line-height-5xl: 1;
+  --line-height-4xl: 2.5rem;
+  --line-height-3xl: 2.25rem;
+  --line-height-2xl: 2rem;
+  --line-height-xl: 1.75rem;
+  --line-height-lg: 1.75rem;
+  --line-height-md: 1.5rem;
+  --line-height-sm: 1.25rem;
+  --line-height-xs: 1rem;
 
-  /* GRAYSCALE */
-  --gray-4: #121214;
-  --gray-3: #212529;
-  --gray-2: #343B41;
-  --gray-1: #868E96;
-  --gray-0: #F8F9FA;
+  --black: black;
+  --white: white;
 
-  /* INPUTS CONFIGS */
-  --bordercolor: #2ECC71;
+  --primary-color: #3DD947;
+  --secondary-color: #151826;
+
+  --green-300: #1A4024;
+  --green-200: #267331;
+  --green-100: #32A639;
+
+  --gray-500: #2C2E2E;
+  --gray-400: #3B3D3D;
+  --gray-300: #A6ADAD;
+  --gray-200: #C4CCCC;
+  --gray-100: #DCE5E5;
 }
 `;
