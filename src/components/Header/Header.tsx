@@ -1,23 +1,18 @@
-import { BsSearch } from "react-icons/bs";
-import { Container } from "../Container";
-import { StyledHeader, StyledLogo, StyledSearch } from "./Header.style";
+import { FiMenu } from "react-icons/fi";
+import { HeaderContainer, StyledHeader } from "./Header.style";
+
+import { Button } from "../Button";
+import { Logo } from "../Logo";
 
 export const Header = () => {
   return (
     <StyledHeader>
-      <Container>
-        <StyledLogo>
-          <img src="" width={32} height={32} alt="logotipo" />
-          <span>Emerald Books</span>
-        </StyledLogo>
-
-        <StyledSearch>
-          <input type="text" placeholder="Digite sua busca" />
-          <button onClick={() => console.log("Oi")}>
-            <BsSearch size={16} />
-          </button>
-        </StyledSearch>
-      </Container>
+      <HeaderContainer>
+        <Logo />
+        <Button type="button" size="icon" onClick={() => console.log("Oi")}>
+          <FiMenu size={24} />
+        </Button>
+      </HeaderContainer>
     </StyledHeader>
   );
 };
