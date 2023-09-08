@@ -1,34 +1,59 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StyledButton = styled.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => props.color === "Adicionar" ? "var(--background-btn)" : "var(--background-btn--negative)" };
-  font-size: 20px;
-  height: 50px;
-  color: white;
+  gap: 8px;
+
+  background-color: transparent;
+
   border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
+  border-radius: 8px;
+  padding: 8px;
   cursor: pointer;
 
-  transition: background-color 0.5s, filter 0.5s;
+  transition:
+    background-color 0.5s,
+    filter 0.5s;
+
+  &.button--primary {
+    background-color: var(--primary-color);
+    color: var(--gray-500);
+  }
+
+  &.button--secondary {
+    background-color: var(--secondary-color);
+    color: var(--gray-500);
+  }
+
+  &.button--icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  &.button--sm {
+  }
+
+  &.button--md {
+  }
+
+  &.button--lg {
+  }
 
   :active {
-    filter: brightness(0.6);
+    filter: brightness(0.9);
   }
 
   @media (min-width: 1024px) {
-    :hover {
-      background-color: var(--gray-3);
+    &.button--primary:hover {
+      color: var(--green-300);
+    }
+
+    &.button--secondary:hover {
+      color: var(--gray-500);
     }
   }
-`
-
-export const StyledDiv = styled.div`
-  display: flex;
-  background-color: black;
-  width: 500px;
-`
+`;
