@@ -9,7 +9,7 @@ export const StyledFooter = styled.footer`
   height: 20vh;
   position: relative;
   top: 20vh;
-  
+
   h3 {
     font-size: var(--heading-3);
     text-align: center;
@@ -31,7 +31,7 @@ export const StyledFooter = styled.footer`
     top: 10vh;
     height: 30vh;
   }
-`
+`;
 
 export const StyledContacts = styled.div`
   display: flex;
@@ -51,4 +51,4 @@ export const StyledContacts = styled.div`
     color: var(--gray-3);
     text-decoration: none;
   }
-`
+`;

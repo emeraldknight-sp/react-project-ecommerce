@@ -23,7 +23,7 @@ export const StyledList = styled.ul`
   ::-webkit-scrollbar {
     height: 5px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
     /* border-radius: 15px; */
@@ -41,12 +41,12 @@ export const StyledList = styled.ul`
     cursor: pointer;
   }
 
-    @media (min-width: 1024px) {
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      overflow-x: hidden;
+  @media (min-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: hidden;
   }
-  `
+`;
 
 export const StyledItem = styled.li`
   display: flex;
@@ -60,13 +60,15 @@ export const StyledItem = styled.li`
   padding: 17px;
   border: none;
   border-radius: 5px;
-  transition: box-shadow 0.5s, filter 0.5s;
+  transition:
+    box-shadow 0.5s,
+    filter 0.5s;
 
   &:hover {
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
-  
+
   figure {
     display: flex;
     justify-content: center;
@@ -96,13 +98,11 @@ export const StyledItem = styled.li`
     p {
       font-size: var(--body);
     }
-  
+
     span {
       font-size: var(--headline);
     }
   }
-`
+`;
 
-export const StyledHorizontalItem = styled.li`
-
-`
+export const StyledHorizontalItem = styled.li``;

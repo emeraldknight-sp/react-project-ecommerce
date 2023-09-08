@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledMain= styled.main`
+export const StyledMain = styled.main`
   position: relative;
   top: 20vh;
   background-color: var(--background);
@@ -18,4 +18,4 @@ export const StyledMain= styled.main`
     top: 10vh;
     /* height: 90vh; */
   }
-`
+`;
